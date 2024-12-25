@@ -16,7 +16,7 @@ This repository contains a Cloud Function designed to forward incoming SMS messa
    - `API_KEY`: Random value, which will be passed to cloud function in `apiKey` query parameter from webhook.
    - `WEBHOOK_URL`: Discord Webhook URL.
 4. Deploy the function to your preferred cloud provider. You might need to make some changes to the source code, please consult with your cloud provider documentation.
-5. [Register webhook in SMS Gateway](https://sms.capcom.me/getting-started/webhooks/) with the URL of your deployed function adding `?apiKey=YOUR_API_KEY` query parameter.
+5. [Register webhook in SMS Gateway](https://docs.sms-gate.app/getting-started/webhooks/) with the URL of your deployed function adding `?apiKey=YOUR_API_KEY` query parameter.
 
 ## Environment Variables
 
