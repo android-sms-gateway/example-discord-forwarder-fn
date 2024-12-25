@@ -1,0 +1,22 @@
+{
+  "name": "example-discord-forwarder-fn",
+  "version": "1.0.0",
+  "description": "Example Cloud Function for forward incoming SMS received by `SMS Gateway for Android` Webhooks to Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "forwarder",
+    "nodejs",
+    "javascript",
+    "cloud",
+    "functions",
+    "discord",
+    "webhooks",
+    "smsgateway"
+  ],
+  "author": "Aleksandr Soloshenko",
+  "license": "Apache-2.0"
+}
